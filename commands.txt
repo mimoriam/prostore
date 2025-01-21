@@ -5,3 +5,6 @@ node -v > .node-version
 
 npm i -D prettier eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss
 @trivago/prettier-plugin-sort-imports
+
+npx shadcn@latest init
+npx shadcn@latest add button
