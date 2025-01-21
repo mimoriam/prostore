@@ -1,0 +1,7 @@
+node -v > .node-version
+(echo .idea .next node_modules .env .env.* package-lock.json) > .eslintignore
+(echo .) > .prettierrc.json
+(echo .idea .next node_modules .env .env.* package-lock.json) > .prettierignore
+
+npm i -D prettier eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss
+@trivago/prettier-plugin-sort-imports
