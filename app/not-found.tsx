@@ -15,7 +15,11 @@ const NotFound = () => {
         <h1 className="mb-4 text-3xl font-bold">Not Found</h1>
         <p className="text-destructive">Could not find requested resource</p>
 
-        <Button variant="outline" className="ml-2 mt-4" onClick={() => (window.location.href = "/")}>
+        <Button
+          variant="outline"
+          className="ml-2 mt-4"
+          onClick={() => (window.location.href = "/")}
+        >
           Back to home
         </Button>
       </div>
