@@ -13,7 +13,7 @@ const Header = () => {
           <Link href="/" className="flex-start">
             <Image
               priority={true}
-              src="/images/logo.svg"
+              src="/next.svg"
               width={48}
               height={48}
               alt={`${APP_NAME} logo`}
