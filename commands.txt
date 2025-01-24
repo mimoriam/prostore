@@ -14,3 +14,9 @@ npm install next-themes
 
 npx shadcn@latest add sheet
 npx shadcn@latest add card
+
+npm install -D prisma @prisma/client
+npx prisma init
+npx prisma generate
+npx prisma migrate dev --name init
+dotenv -e .env -- npx tsx ./db/seed
