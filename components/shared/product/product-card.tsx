@@ -4,7 +4,9 @@ import Link from "next/link";
 import ProductPrice from "@/components/shared/product/product-price";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-const ProductCard = ({ product }: { product: any }) => {
+import { Product } from "@/types";
+
+const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader className="items-center p-0">
