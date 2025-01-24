@@ -22,3 +22,5 @@ npx prisma migrate dev --name init
 dotenv -e .env -- npx tsx ./db/seed
 
 npm install zod
+
+npx shadcn@latest add badge
