@@ -20,3 +20,5 @@ npx prisma init
 npx prisma generate
 npx prisma migrate dev --name init
 dotenv -e .env -- npx tsx ./db/seed
+
+npm install zod
