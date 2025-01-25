@@ -24,3 +24,4 @@ dotenv -e .env -- npx tsx ./db/seed
 npm install zod
 
 npx shadcn@latest add badge
+npm install bcrypt-ts-edge
