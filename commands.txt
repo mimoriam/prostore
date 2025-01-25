@@ -24,4 +24,10 @@ dotenv -e .env -- npx tsx ./db/seed
 npm install zod
 
 npx shadcn@latest add badge
-npm install bcrypt-ts-edge
+npm i bcrypt-ts-edge
+
+npm i next-auth@beta
+npx auth secret
+npm i @auth/prisma-adapter
+
+npx shadcn@latest add input label
