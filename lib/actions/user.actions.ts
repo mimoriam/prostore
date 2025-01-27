@@ -5,6 +5,7 @@ import { hashSync } from "bcrypt-ts-edge";
 import { isRedirectError } from "next/dist/client/components/redirect-error";
 
 import { prisma } from "@/lib/prisma";
+import { formatError } from "@/lib/utils";
 import { signInFormSchema, signUpFormSchema } from "@/lib/validator";
 
 import { signIn, signOut } from "@/auth";
@@ -69,7 +70,7 @@ export async function signUp(prevState: unknown, formData: FormData) {
 
     return {
       success: false,
-      message: "Something went wrong",
+      message: formatError(error),
     };
   }
 }
